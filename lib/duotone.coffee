@@ -12,8 +12,8 @@ module.exports =
       root.classList.remove('theme-duotone-syntax--custom-colors')
       switch newValue
         when "Dark Sky"
-          uno = 'hsl(250, 60%, 66%)'
-          duo = 'hsl( 46, 70%, 74%)'
+          uno = 'hsl(250, 58%, 72%)'
+          duo = 'hsl( 30, 99%, 78%)'
         when "Dark Sea"
           uno = 'hsl(212, 48%, 60%)'
           duo = 'hsl(160, 99%, 70%)'
