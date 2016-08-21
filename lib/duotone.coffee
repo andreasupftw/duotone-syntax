@@ -12,20 +12,20 @@ module.exports =
       root.classList.remove('theme-duotone-syntax--custom-colors')
       switch newValue
         when "Dark Sky"
-          uno = '#ff0000'
-          duo = '#00ff00'
+          uno = 'hsl(250, 60%, 66%)'
+          duo = 'hsl( 46, 70%, 74%)'
         when "Dark Sea"
-          uno = '#0000ff'
-          duo = '#ff0000'
+          uno = 'hsl(212, 48%, 60%)'
+          duo = 'hsl(160, 99%, 70%)'
         when "Dark Space"
-          uno = '#00ff00'
-          duo = '#0000ff'
+          uno = 'hsl(240, 66%, 77%)'
+          duo = 'hsl( 20, 99%, 66%)'
         when "Dark Forest"
-          uno = '#ff0000'
-          duo = '#00ff00'
+          uno = 'hsl(120, 28%, 70%)'
+          duo = 'hsl( 70, 99%, 76%)'
         when "Dark Earth"
-          uno = '#0000ff'
-          duo = '#ff0000'
+          uno = 'hsl(24, 40%, 60%)'
+          duo = 'hsl(42, 99%, 70%)'
         when "Custom"
           root.classList.add('theme-duotone-syntax--custom-colors')
           uno = atom.config.get('duotone-syntax.unoColor').toHexString()
