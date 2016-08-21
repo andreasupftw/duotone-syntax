@@ -29,17 +29,17 @@
     },
     "unoColor": {
       "title": "Uno",
-      "description": "Or customize the main..",
+      "description": "Customize the main color",
       "order": 2,
       "type": "color",
-      "default": "#7486FD"
+      "default": "#6A6E8B"
     },
     "duoColor": {
       "title": "Duo",
-      "description": "and the accent color.",
+      "description": "Customize the accent color",
       "order": 3,
       "type": "color",
-      "default": "#FF3963"
+      "default": "#DA8FFF"
     }
   }
 }
