@@ -1,13 +1,13 @@
 {
-  "name": "duotone-syntax",
+  "name": "up-duotone-syntax",
   "theme": "syntax",
-  "version": "2.0.0",
-  "description": "Master template for DuoTone syntax themes",
+  "version": "1.0.0",
+  "description": "DuoTone syntax theme - United Power Style!",
   "keywords": [
     "duotone",
     "syntax"
   ],
-  "repository": "https://github.com/simurai/duotone-syntax",
+  "repository": "https://github.com/andreasupftw/up-duotone-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">1.0.0"
